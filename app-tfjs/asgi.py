@@ -1,5 +1,5 @@
 """
-ASGI config for control project.
+ASGI config for app-tfjs project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
