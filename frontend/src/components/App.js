@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
+import Homepage from "./base/Homepage";
+
+import { createMuiTheme, ThemeProvider } from "@material-ui/core";
+import { blue, grey, orange, purple, white } from "@material-ui/core/colors";
 
 export default class App extends Component {
   constructor(props) {
@@ -7,7 +11,7 @@ export default class App extends Component {
   }
 
   render() {
-    return <h1>Its live reloading Enable</h1>;
+    return <Homepage />;
   }
 }
 
